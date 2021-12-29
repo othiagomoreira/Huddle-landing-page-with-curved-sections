@@ -1,8 +1,8 @@
 {
   "version": "1.0.0",
-  "description": "",
+  "description": "![Header/intro section for the Huddle landing page with curved sections](./design/desktop-preview.jpg)",
   "keywords": [],
-  "author": "",
+  "author": "Thiago Moreira",
   "license": "ISC",
   "dependencies": {
     "@babel/core": "^7.14.8",
@@ -22,5 +22,19 @@
     "last 1 version",
     "IE 11",
     "> 1%"
-  ]
+  ],
+  "name": "huddle-landing-page-with-curved-sections-master",
+  "main": "gulpfile.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/othiagomoreira/Huddle-landing-page-with-curved-sections.git"
+  },
+  "bugs": {
+    "url": "https://github.com/othiagomoreira/Huddle-landing-page-with-curved-sections/issues"
+  },
+  "homepage": "https://github.com/othiagomoreira/Huddle-landing-page-with-curved-sections#readme"
 }

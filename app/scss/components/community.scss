@@ -1,0 +1,41 @@
+@use '../util' as *;
+
+.community {
+    &__title {
+        text-align: center;
+
+        @include breakpoint(medium) {
+            font-size: rem(40);
+        }
+    }
+
+    &__description {
+        padding: rem(30) 0;
+        text-align: center;
+        max-width: rem(500);
+        margin: 0 auto;
+    }
+
+    &__mockups {
+        padding: rem(90) 0;
+    }
+
+    &__data {
+        @include flex(center, column);
+        gap: rem(100);
+    }
+
+    &__icon {
+        width: rem(30);
+    }
+
+    &__numbers {
+        font-size: rem(60);
+    }
+
+    &__info {
+        display: block;
+        text-align: center;
+        color: hsl(0, 0%, 45%);
+    }
+}

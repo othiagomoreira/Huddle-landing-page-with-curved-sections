@@ -1,0 +1,29 @@
+@use '../util' as *;
+
+.header {
+    @include flex(space-between, row);
+    padding: rem(30) 0 rem(100);
+
+    &__logo {
+        width: rem(130);
+
+        @include breakpoint(medium) {
+            width: rem(140);
+        }
+    }
+
+    &__btn {
+        color: var(--btn);
+        font-weight: 600;
+        padding: rem(5) rem(20);
+        border: 1px solid var(--btn);
+        border-radius: rem(30);
+        box-shadow: 1px 1px 10px 0px rgba(255, 143, 216, 0.42);
+        transition: all ease 0.4s;
+
+        &:hover {
+            color: var(--btn-hover);
+            border-color: var(--btn-hover);
+        }
+    }
+}

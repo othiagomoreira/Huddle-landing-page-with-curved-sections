@@ -6,27 +6,58 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
 
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@700&display=swap"
+    rel="stylesheet">
+
+  <!-- Css -->
   <link rel="stylesheet" href="./dist/style.css">
+  <!-- Javascript -->
   <script type="module" defer src="./dist/script.js"></script>
 
   <title>Frontend Mentor | Huddle landing page with curved sections</title>
 </head>
 
 <body>
-  Try it free
+  <header class="header container">
+    <img src="images/logo.svg" alt="Logo Huddle" class="header__logo">
 
-  Build The Community Your Fans Will Love
+    <a href="#" class="header__btn">Try it Free</a>
+  </header>
 
-  Huddle re-imagines the way we build communities. You have a voice, but so does
-  your audience. Create connections with your users as you engage in genuine discussion.
+  <main class="main">
+    <section class="community container">
+      <h1 class="community__title">Build The Community Your Fans Will Love</h1>
 
-  Get Started For Free
+      <p class="community__description">
+        Huddle re-imagines the way we build communities. You have a voice, but so does your audience. Create connections
+        with your users as you engage in genuine discussion.
+      </p>
 
-  1.4k+
-  Communities Formed
+      <a href="" class="community__btn buttons">Get Started For Free</a>
 
-  2.7m+
-  Messages Sent
+      <img src="images/screen-mockups.svg" alt="mockup illustration" class="community__mockups">
+
+      <div class="community__data">
+        <div>
+          <img src="images/icon-communities.svg" alt="communities illustration" class="community__icon">
+          <h4 class="community__numbers">1.4k+</h4>
+          <span class="community__info">Communities Formed</span>
+        </div>
+
+        <div>
+          <img src="images/icon-messages.svg" alt="Messages illustration" class="community__icon">
+          <h4 class="community__numbers">2.7m+</h4>
+          <span class="community__info">Messages Sent</span>
+        </div>
+      </div>
+    </section>
+  </main>
+
+
+
 
   Grow Together
   Generate meaningful discussions with your audience and build a strong, loyal community.
